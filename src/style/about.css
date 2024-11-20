@@ -1,0 +1,108 @@
+.about {
+  width: 100%;
+  height: auto;
+}
+
+.about-content-1 {
+  width: 100%;
+  background-image: url("../assets/about.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.about-content-1-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-content-1-container h1 {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.about-content-2 {
+  padding: 40px;
+}
+
+.about-content-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.about-content-2-container {
+  width: 50%;
+}
+.about-content-2-container h1 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.about-content-2-container .paragraph {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-content-3 {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.about-content-3-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-content-3-container .image {
+  height: 400px;
+}
+.about-content-3-container .image img {
+  height: 100%;
+}
+.about-content-3-container h1 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.paragraph-container {
+  width: 60%;
+}
+.about-content-3-container p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-content-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 40px;
+}
+.about-content-4-container {
+  width: 40%;
+}
+
+.about-content-4-container h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.about-content-4-container .paragraph {
+  width: 70%;
+}
+.about-content-4-container p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 50px;
+}

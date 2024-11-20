@@ -1,0 +1,41 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #894b1f;
+}
+
+.navbar {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: normal;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navbar-brand:hover {
+  color: #ffffff;
+}
+.btn-group .btn {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+  margin-bottom: 5px;
+}

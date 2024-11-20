@@ -1,0 +1,148 @@
+.home {
+  width: 100%;
+}
+
+.carousel-container {
+  width: 100%;
+}
+.carousel-container img {
+  height: 40vh;
+  object-fit: cover;
+}
+
+.home-container {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.home-content1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 50px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 33%;
+}
+.home-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.home-paragraph {
+  text-align: center;
+  width: 400px;
+  margin-top: 40px;
+}
+
+.button-container {
+  margin-top: 30px;
+}
+.button {
+  background-color: #894b1f;
+  padding: 10px;
+  font-size: 20px;
+  width: 160px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.border-bottom {
+  margin-top: 40px;
+  border-bottom: 2px solid #000000 !important;
+}
+
+.home-content2 {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-content2 .home-container1 {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-content2 .home-container2 {
+  width: 60%;
+}
+
+.home-container2 .about h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about-paragraph {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.about-paragraph p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-paragraph .second {
+  margin-top: 25px;
+}
+
+.home-container-button {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.home-container-button .button {
+  padding: 15px;
+  width: 200px;
+}
+
+.home-content3 {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-content3 .home-container1 {
+  width: 60%;
+}
+.home-content3 .home-container2 {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.home-content3 .home-container1 .about h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.home-content3 .home-container1 .about-paragraph {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.home-content3 .home-container1 .about-paragraph p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.home-content3 .home-container1 .about-paragraph {
+  width: 90%;
+}
+.home-content3 .home-container2 img {
+  width: 100%;
+}
