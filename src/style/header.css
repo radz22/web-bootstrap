@@ -3,39 +3,27 @@
   margin: 0px;
   box-sizing: border-box;
 }
-.header {
+.navbar {
   width: 100%;
   height: auto;
-  background-color: #894b1f;
-}
-
-.navbar {
+  background-color: #894b1f !important;
   padding: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
-.logo {
+.navbar-brand {
   font-size: 20px;
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
 }
+.nav-link {
+  font-size: 18px;
+  color: #ffffff;
+}
 
-.navbar-brand {
-  font-size: 18px;
-  margin-left: 20px;
-  font-weight: normal;
-  color: #ffffff;
-  cursor: pointer;
-  text-decoration: none;
-}
-.navbar-brand:hover {
+.drop-nav {
   color: #ffffff;
 }
-.btn-group .btn {
-  font-size: 18px;
-  font-weight: normal;
-  color: #ffffff;
-  margin-bottom: 5px;
+
+.navbar-toggler {
+  background-color: #ffffff !important;
 }

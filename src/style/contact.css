@@ -1,0 +1,122 @@
+.contact {
+  width: 100%;
+  height: auto;
+}
+.contact-content-1 {
+  width: 100%;
+  background-image: url("../assets/contact.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+.contact-content-1-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-content-1-container h1 {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.contact-content-2 {
+  margin-top: 50px;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.contact-container-2 {
+  width: 50%;
+}
+
+.contact-container-1-content {
+  margin-top: 20px;
+}
+
+.input input {
+  width: 350px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #000 !important;
+}
+
+.text-area textarea {
+  width: 350px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #000 !important;
+  height: 200px;
+}
+
+.contact-container-1 h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container .button-content {
+  width: 200px;
+  padding: 15px;
+  background-color: #894b1f;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.contact-container-2 .get-touch {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.contact-container-2 p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.contact-container-2-content {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+.contact-container-2-content .contact-container-2-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.contact-container-2-content .contact-container-2-container .iconify {
+  font-size: 50px;
+}
+.contact-container-2-content .contact-container-2-container .h1-1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact-container-2-content .contact-container-2-container .h1-2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.contact-content-3 {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.contact-content-3 .map {
+  height: 450px;
+  width: 100%;
+}

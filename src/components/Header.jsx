@@ -3,65 +3,73 @@ import "../style/header.css";
 import { useNavigate } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
-  const handleNavigate = (route) => {
-    if (route == "null") {
-      navigate("/");
-    } else {
-      navigate(`/${route}`);
-    }
+  const handleNavigate = () => {
+    navigate("/product");
   };
   return (
-    <div className="header">
-      <nav className="navbar">
-        <div className="container-fluid">
-          <div>
-            <a className="logo">Scentiments.MNL</a>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">
+          Scentiments.MNL
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style={{ "--bs-scroll-height": "100px" }}
+          >
+            <li className="nav-item">
+              <a className="nav-link" href="/">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/about">
+                About
+              </a>
+            </li>
 
-            <a className="navbar-brand" onClick={() => handleNavigate("null")}>
-              Home
-            </a>
-            <a className="navbar-brand" onClick={() => handleNavigate("about")}>
-              About
-            </a>
-            <div class="btn-group">
-              <button
-                className="btn text-light dropdown-toggle"
-                type="button"
+            <li className="nav-item dropdown">
+              <a
+                onClick={handleNavigate}
+                className="drop-nav nav-link dropdown-toggle"
+                href="/product"
+                role="button"
                 data-bs-toggle="dropdown"
-                data-bs-auto-close="true"
-                aria-expanded="false"
-                onClick={() => handleNavigate("product")}
               >
                 Product
-              </button>
-
+              </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a
-                    className="dropdown-item"
-                    onClick={() => handleNavigate("product1")}
-                  >
-                    Product 1
+                  <a className="dropdown-item" href="/product1">
+                    Product1
                   </a>
                 </li>
                 <li>
-                  <a
-                    className="dropdown-item"
-                    onClick={() => handleNavigate("product2")}
-                  >
-                    Product 2
+                  <a className="dropdown-item" href="/product2">
+                    Product2
                   </a>
                 </li>
               </ul>
-            </div>
-            <a
-              className="navbar-brand"
-              onClick={() => handleNavigate("contact")}
-            >
-              Contact
-            </a>
-          </div>
-          <form class="d-flex" role="search">
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="/contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+          <form className="d-flex" role="search">
             <input
               className="form-control me-2"
               type="search"
@@ -70,8 +78,8 @@ const Header = () => {
             />
           </form>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 
